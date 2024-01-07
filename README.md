@@ -1,8 +1,10 @@
 # Projects
 Collection of projects that I have done
 
-Participate in CTF
+Actively participate in CTF
 Some of the solutions I have are in the CTF Solutions folder
+
+School Projects folder is organized by class
 
 Developed several games in Unity for game design competitions made entirely from scratch over a 72-hour period
 
