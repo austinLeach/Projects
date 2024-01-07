@@ -1,0 +1,22 @@
+Austin Leach
+All sorts are in C++11.
+I used linprog in order to compile and test the programs with g++ -std=c++11.
+In order to run the code there is a makefile which will create the following executables.
+	bucketSort
+	countingSort
+	heapSort
+	insertionSort
+	mergeSort
+	quickSort
+	radixSort
+Each executable produces its own output file with the name of the executable + Values.
+	bucketSortValues
+	countingSortValues
+	heapSortValues
+	insertionSortValues
+	mergeSortValues
+	quickSortValues
+	radixSortValues
+These are comma delimited list of the runtimes produced by the sorts.
+The output files are used for the graphing.py program in order to create the graphs.
+Running graphing.py will ask for a file name input and then output a graph for that file.
