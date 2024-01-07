@@ -1,0 +1,8 @@
+free(user) will make malloc say that it is unused. afterwards when writing a message that uses malloc it will reuse the previously freed space which the program then runs when it does doProcess(user). by changing the data in that spot to the win function it is possible to run that function instead.
+
+SO at the beginning of the problem, the program uses malloc to create a new user object. If we send in
+an i? then it will allow us to free that user and thereby the space on the heap that was allocated
+to that user. After we have freed, when we call leaveMessage() that allows us to pull a new (smaller) 
+chunk from the heap (which was previoisly a part of the user object. We can write the address of
+win() and then free it so that it goes back to where the user object was, then because of the 
+lack of an if statement it will call that objects doProcess() function after it has been freed 
