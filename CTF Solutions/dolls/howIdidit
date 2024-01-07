@@ -1,0 +1,4 @@
+binwalk -e dolls.jpg
+
+this extracts the image if there are files below it
+
