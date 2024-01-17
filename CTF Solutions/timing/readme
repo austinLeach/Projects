@@ -1,0 +1,3 @@
+http://ctf.hackucf.org:4000/bad_code/bad_code.php
+
+site gives you time it takes to reqond so you can use a timing attack since it will take slightly longer for a correct character to fail the password check. doing this and keeping a  running password you can figure out the passwords from the longest time taken
