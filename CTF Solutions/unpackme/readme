@@ -1,0 +1,1 @@
+program executes a base64 encoded string that is password protected. In order to see what the program is executing I added a print statement to show the code that will be executed in order to see what the password is and get the flag.
