@@ -1,0 +1,1 @@
+looking for password. Take encoded key string that is used to compare against the password. This string is encoded with base 64 so decoding it gets you pl3as3_l3t_m3_1nt0_th3_saf3 which is the flag.
