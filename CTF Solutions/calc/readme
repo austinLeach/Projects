@@ -1,0 +1,3 @@
+http://ctf.hackucf.org:4000/calc/calc.php
+
+website gives a math problem that must be solved in less than a second. using python request library you can get the problem and then parse it and solve it and send it back to the server to get the flag.
